@@ -1,5 +1,5 @@
 import './App.css';
-
+import CartWidget from 'CartWidget()'
 function App() {
   return (
     <header>
@@ -8,8 +8,9 @@ function App() {
         <img src="./public/kikuyo.png" alt="logo"/>
         <input className="inputBusqueda" type="text" placeholder="¿Que estas buscando?"></input>
       <div className="carrito">
-        <div className="carro">Carrito de compras</div>
-        <div className="cuenta">Tu cuenta</div>
+          <CartWidget />
+
+          <div className="cuenta">Tu cuenta</div>
 
       </div>
 
